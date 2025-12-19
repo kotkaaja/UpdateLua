@@ -6,8 +6,8 @@ local dlstatus = require('moonloader').download_status
 
 -- ================= KONFIGURASI =================
 -- Ganti 2 Link ini dengan Link RAW GitHub lu sendiri!
-local url_version = "https://raw.githubusercontent.com/USERNAME/REPO/main/version.txt"
-local url_script = "https://raw.githubusercontent.com/USERNAME/REPO/main/MyScript.lua"
+local url_version = "https://raw.githubusercontent.com/kotkaaja/UpdateLua/refs/heads/main/version.txt"
+local url_script = "https://raw.githubusercontent.com/kotkaaja/UpdateLua/refs/heads/main/MyScript.lua"
 -- ===============================================
 
 local update_path = getWorkingDirectory() .. "\\temp_version.txt"
